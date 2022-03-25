@@ -1,0 +1,119 @@
+body{
+    background-image: url("./images/backimage.jpg");
+}
+
+li{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+       font-size: 20px;
+       color: #110f0a;
+       display:inline-block; 
+       background-color: orange; 
+       padding: 10px 10px 10px 10px ; 
+       width: 18%;
+       text-align: center;
+
+
+}
+.header{
+    margin: 0px auto;
+    width: 90% ;
+}
+
+.container1{
+    display: grid;
+  height: 600px ;
+  
+  grid-template-columns: 70% 30%;
+  grid-template-rows: 300px 300px; 
+  row-gap: 10px;
+  column-gap: 20px;
+  
+  
+}
+#item2{
+    background-color: orange;
+    grid-column-start: 2;
+    grid-row-start:1 ;
+    grid-row-end: 2;
+}
+ #item3{
+    background-color: orange;
+    grid-column-start: 2;
+    grid-row-start:2 ;
+    grid-row-end: 2;
+ }
+ #price{
+     text-align: center;
+     justify-content: center;
+     padding: 100px ;
+ }
+ .container2{
+     display:grid ;
+     height: 400px;
+     grid-template-columns: repeat(4 , 25%) ;
+     grid-template-rows: 200px 200px;
+     column-gap: 10px;
+
+ }
+ #icon1{
+   
+    background-color: white;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start:1 ;
+    grid-row-end: 2;
+    padding: 0px 0px 0px 100px;
+ }
+ #icon2{
+   
+        background-color: white;
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start:1 ;
+        grid-row-end: 2;
+        padding: 0px 0px 0px 100px;
+ }
+ #icon3{
+
+        background-color: white;
+        grid-column-start: 3;
+        grid-column-end: 4;
+        grid-row-start:1 ;
+        grid-row-end: 2;
+        padding: 0px 0px 0px 100px;
+    }
+#icon4{
+   
+            background-color: white;
+            grid-column-start: 4;
+            grid-column-end: 4;
+            grid-row-start:1 ;
+            grid-row-end: 2;
+            padding: 0px 0px 0px 100px;
+}
+
+.container3{
+    display:grid ;
+    height: 300px;
+    grid-template-columns: 40% 60% ;
+    background-color: white;
+    padding: 0px 0px 0px 200px;
+
+}
+#tacopic{
+    grid-column-start: 1;
+    grid-column-end: 1;
+    
+}
+#tacodefine{
+    grid-column-start: 2;
+    grid-column-end: 2;
+}
+
+.container4{
+    display: grid;
+    grid: 256px / auto auto auto auto auto auto ;
+    grid-gap: 5px;
+    background-color: #110f0a;
+    padding: 10px;
+}
