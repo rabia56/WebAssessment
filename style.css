@@ -23,10 +23,10 @@ li{
     display: grid;
   height: 600px ;
   
-  grid-template-columns: 70% 30%;
+  grid-template-columns: 60% 20%;
   grid-template-rows: 300px 300px; 
   row-gap: 10px;
-  column-gap: 20px;
+  column-gap: 240px;
   
   
 }
@@ -49,10 +49,12 @@ li{
  }
  .container2{
      display:grid ;
-     height: 400px;
+     height: 200px;
      grid-template-columns: repeat(4 , 25%) ;
-     grid-template-rows: 200px 200px;
+     /*grid-template-rows: 200px;*/
      column-gap: 10px;
+     margin-top: 40px;
+    
 
  }
  #icon1{
@@ -98,7 +100,8 @@ li{
     grid-template-columns: 40% 60% ;
     background-color: white;
     padding: 0px 0px 0px 200px;
-
+    margin-top: 30px;
+    
 }
 #tacopic{
     grid-column-start: 1;
@@ -116,4 +119,5 @@ li{
     grid-gap: 5px;
     background-color: #110f0a;
     padding: 10px;
+    margin-top: 30px;
 }
